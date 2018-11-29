@@ -27,11 +27,13 @@ async def on_ready():
 
 @bot.event
 async def on_ready():
-    
-
   print('The bot is ready!')
   print(bot.user.name)
   print(bot.user.id)
+
+  print('The bot is ready!')
+  
+  
      
 @bot.command()
 async def support():
