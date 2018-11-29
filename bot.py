@@ -32,3 +32,7 @@ async def on_ready():
   print('The bot is ready!')
   print(bot.user.name)
   print(bot.user.id)
+     
+@bot.command()
+async def support():
+     await bot.say('Dodělává se!')
