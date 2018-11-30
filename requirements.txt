@@ -1,3 +1,7 @@
 discord.py
 asyncio
 status
+PyNaCl
+
+
+PyNaCl
