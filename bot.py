@@ -1,6 +1,18 @@
 import discord
+from discord.ext.commands import Bot
 from discord.ext import commands
+from discord.ext.commands.cooldowns import BucketType
+
 import asyncio
+import platform
+import colorsys
+import random
+import os 
+import time
+
+
+
+
 
 bot=commands.Bot(command_prefix='f!')
 
