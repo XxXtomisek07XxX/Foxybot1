@@ -22,8 +22,8 @@ async def hosting():
 async def request():
 	await bot.say('****__Děkujeme za Request!__****')
 	
-bot.run('NTE3NzUyNTU3NTQ0OTMxMzMw.DuGyiw.7jpxF_VH3-32vKknQ4Nkzy6DbF4')
 
+bot.run(os.getenv("BOT_TOKEN"))
 
 
 
