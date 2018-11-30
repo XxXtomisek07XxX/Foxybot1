@@ -38,3 +38,5 @@ async def on_ready():
 @bot.command()
 async def support():
      await bot.say('Dodělává se!')
+     
+bot.run(os.getenv("BOT_TOKEN"))
