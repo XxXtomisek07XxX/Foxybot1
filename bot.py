@@ -43,7 +43,7 @@ bot.run(os.getenv("BOT_TOKEN"))
 
 
 @bot.command()
-async def help ():
+async def help():
 	await bot.say("""f!help
      Zobrazí tuto zprávu
 
@@ -51,7 +51,22 @@ f!info
      Zobrazí info o tvůrci bota
 
 f!request
-     Pošle žádost o vylepšení na support server""")
+     Pošle žádost o vylepšení na support server
+
+f!warn
+     Dá varování
+
+f!kick
+     Dá Vykopnutí
+
+f!ban
+     Zablokuje Uživatele
+     
+f!ping
+
+Napíše Ping Bota
+
+f!""")
 	
 @bot.command(pass_context=True)  
 @commands.has_permissions(kick_members=True)     
