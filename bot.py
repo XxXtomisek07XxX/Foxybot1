@@ -126,7 +126,7 @@ async def warn(ctx, *, member : discord.Member = None):
 
 
 
-@bot.command(pass_context = True)  
+
 
   
 
