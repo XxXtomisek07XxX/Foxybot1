@@ -63,7 +63,7 @@ async def help():
      Zablokuje Uživatele
      
 ``f!ping``
-      Napíše Ping Bota""")
+      Napíše Ping Bota """)
 
 
 
