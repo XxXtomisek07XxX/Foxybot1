@@ -47,26 +47,26 @@ async def help():
 	await bot.say("""f!help
      Zobrazí tuto zprávu
 
-f!info
+``f!info``
      Zobrazí info o tvůrci bota
 
-f!request
+``f!request``
      Pošle žádost o vylepšení na support server
 
-f!warn
+``f!warn``
      Dá varování
 
-f!kick
+``f!kick``
      Dá Vykopnutí
 
-f!ban
+``f!ban``
      Zablokuje Uživatele
      
-f!ping
+``f!ping``
+      Napíše Ping Bota""")
 
-Napíše Ping Bota
 
-f!""")
+
 	
 @bot.command(pass_context=True)  
 @commands.has_permissions(kick_members=True)     
