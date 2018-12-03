@@ -39,7 +39,7 @@ async def request():
 	await bot.say('****__Děkujeme za Request!__****')
 	
 
-bot.run(os.getenv("BOT_TOKEN"))
+
 
 
 @bot.command()
@@ -139,6 +139,8 @@ async def warn(ctx, *, member : discord.Member = None):
     return await bot.say(embed = embed)
 
 
+
+bot.run(os.getenv("BOT_TOKEN"))
 
 
 
